@@ -8,8 +8,8 @@ let client = new ImageClient('011588903241061341004:us5qbfn9dk4', 'AIzaSyA1QC4Hj
 
 var mongodb = require('mongodb');
 var mongoClient = mongodb.MongoClient;
-var url = 'mongodb://localhost:27017/querydb'
-
+//var url = 'mongodb://localhost:27017/querydb'
+var url = 'mongodb://sample:sample@ds145118.mlab.com:45118/querydb'
 
 mongoClient.connect(url, function(err, db){
    if (err) {
